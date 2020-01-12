@@ -35,11 +35,6 @@
                                         <td>{{$data->patient->name}}</td>
                                         <td>{{$data->doctor->name}}</td>
                                         <td>
-                                            <!--Edit Button-->
-                                            <a class="btn btn-primary" href="{{route('registration.show',['id'=> $data->id])}}">
-                                                <i class="fa fa-edit"></i>
-                                            </a>
-
                                             <!--Delete Button-->
                                             <a class="del-btn btn btn-danger" data-id="{{$data->id}}"><i class="fa fa-trash"></i>
                                             </a>
