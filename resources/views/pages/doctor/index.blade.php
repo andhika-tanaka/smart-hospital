@@ -37,9 +37,6 @@
                                         <td>{{$data->gender}}</td>
                                         <td>{{$data->phone}}</td>
                                         <td>
-                                            <!--Edit Button-->
-                                            <a class="btn btn-primary" href="{{route('doctor.edit',['id' => $data->id])}}"><i class="fa fa-edit"></i></a>
-
                                             <!--Delete Button-->
                                             <a class="del-btn btn btn-danger" data-id="{{$data->id}}"><i class="fa fa-trash"></i></a>
                                         </td>
